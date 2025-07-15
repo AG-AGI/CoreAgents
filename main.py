@@ -7,8 +7,8 @@ def get_weather(city: str) -> str:
 agent = Agent(
     name="Haiku agent",
     instructions="Always respond in haiku form",
-    model="pollinations",
+    model="polli",
     tools=[get_weather],
 )
 
-print(agent.respond("What's the weather in Toronto?"))
+print(agent.respond("What's the weather in Tokyo?"))
