@@ -1,4 +1,4 @@
-# openagi_core_agents
+# CoreAgents
 
 `openagi_core_agents` is a minimal Python module to create agentic AI with tool-using capabilities powered by an LLM. It enables defining **function tools** and an **Agent** that can intelligently decide when to call tools based on natural language input, then combine the tool outputs with generated responses — all while following custom instructions like responding in haiku form.
 
