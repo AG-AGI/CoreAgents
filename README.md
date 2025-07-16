@@ -33,6 +33,6 @@ agent = Agent(
 
 agent.debug_tools()
 
-print(agent.respond("What's the weather?"))
+print(agent.respond("What's the weather in Tokyo?"))
 
 ```
